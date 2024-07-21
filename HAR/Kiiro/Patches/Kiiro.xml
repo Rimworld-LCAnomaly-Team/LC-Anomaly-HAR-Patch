@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationConditional" MayRequire = "">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Kiiro_Race"]/alienRace/graphicPaths/apparel</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Kiiro_Race"]/alienRace/graphicPaths</xpath>
+			<value>
+				<apparel />
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Kiiro_Race"]/alienRace/graphicPaths/apparel/individualPaths</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Kiiro_Race"]/alienRace/graphicPaths/apparel</xpath>
+			<value>
+				<individualPaths />
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Kiiro_Race"]/alienRace/graphicPaths/apparel/individualPaths</xpath>
+		<value>
+			<li>
+				<key>Apparel_MeatLanternSuit</key>
+				<value>Things/Pawn/Humanlike/Apparel/MeatLanternSuit/Kiiro</value>
+			</li>
+		</value>
+	</Operation>
+</Patch>

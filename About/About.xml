@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>LC Anomaly HAR Patch</name>
+	<author>DarthCY</author>
+	<packageId>DarthCY.LC.HAR.Patch</packageId>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<description>Add ego suit body support for some races.</description>
+	<url>https://github.com/DarthCY-K/LC-Anomaly-HAR-Patch</url>
+	<modDependencies>
+		<li> 
+			<packageId>erdelf.HumanoidAlienRaces</packageId>
+			<displayName>Humanoid Alien Races 2.0</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>DarthCY.LC.MeatLantern</packageId>
+			<displayName>LC Anomaly MeatLantern</displayName>
+			<downloadUrl>https://github.com/DarthCY-K/LC-Anomaly-MeatLantern/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>erdelf.HumanoidAlienRaces</li>
+		<li>Ancot.KiiroRace</li>
+		<li>DarthCY.LC.MeatLantern</li>
+	</loadAfter>
+</ModMetaData>
