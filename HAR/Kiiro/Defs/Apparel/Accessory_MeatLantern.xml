@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="Accessory_MeatLantern">
+    <defName>Accessory_MeatLantern_Kiiro</defName>
+    <label>Accessory_MeatLantern (Kiiro)</label>
+    <description>.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Kiiro/Accessory/MeatLantern/Icon</texPath>
+    </graphicData>
+    <apparel>	
+      <wornGraphicPath>Things/Pawn/Kiiro/Accessory/MeatLantern/MeatLanternAccessory</wornGraphicPath>
+    </apparel>
+    <statBases>
+			<WorkToMake>50</WorkToMake>
+    </statBases>
+    <costList Inherit="False">
+      <Accessory_MeatLantern>1</Accessory_MeatLantern>
+    </costList>
+    <recipeMaker>
+	    <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+      <displayPriority>702</displayPriority>
+	     <recipeUsers Inherit="False">
+				<li>TableManufacturing_EGO</li>
+        <li>TableMachining</li>
+       </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
+</Defs>
