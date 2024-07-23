@@ -3,6 +3,7 @@
 	<v1.5>
 		<li>Cont</li>
 		<li IfModActive="Ancot.KiiroRace">HAR/Kiiro</li>
+		<li IfModActive="ancot.milirarace">HAR/Milira</li>
 		<li IfModActive="miho.fortifiedoutremer">HAR/Miho</li>
     </v1.5>
 </loadFolders>

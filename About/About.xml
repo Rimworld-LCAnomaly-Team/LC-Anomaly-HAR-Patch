@@ -21,8 +21,9 @@
 		</li>
 	</modDependencies>
 	<loadAfter>
-		<li>erdelf.HumanoidAlienRaces</li>
 		<li>Ancot.KiiroRace</li>
+		<li>Ancot.MiliraRace</li>
+		<li>miho.fortifiedoutremer</li>
 		<li>DarthCY.LC.MeatLantern</li>
 	</loadAfter>
 </ModMetaData>
