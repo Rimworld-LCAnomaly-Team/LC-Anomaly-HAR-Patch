@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="LC_UnfinishedApparelEGO">
+    <defName>LC_UnfinishedApparelEGO</defName>
+    <thingClass>UnfinishedThing</thingClass>
+    <category>Item</category>
+    <label>unfinished ego apparel</label>
+    <description>An unfinished piece of a ego apparel.</description>
+    <graphicData>
+      <texPath>Things/Item/Unfinished/UnfinishedApparel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <useHitPoints>true</useHitPoints>
+    <isUnfinishedThing>true</isUnfinishedThing>
+    <scatterableOnMapGen>false</scatterableOnMapGen>
+    <selectable>true</selectable>
+    <tradeability>None</tradeability>
+    <drawerType>MapMeshOnly</drawerType>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <DeteriorationRate>2.0</DeteriorationRate>
+      <Beauty>-8</Beauty>
+      <Mass>1</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+    <alwaysHaulable>true</alwaysHaulable>
+    <rotatable>false</rotatable>
+    <pathCost>14</pathCost>
+    <thingCategories>
+      <li>Unfinished</li>
+    </thingCategories>
+    <stuffCategories>
+    </stuffCategories>
+  </ThingDef>
+
+</Defs>

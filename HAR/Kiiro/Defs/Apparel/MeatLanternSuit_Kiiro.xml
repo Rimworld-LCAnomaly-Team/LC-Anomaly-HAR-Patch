@@ -6,23 +6,21 @@
     <label>E.G.O.Suit MeatLantern (Kiiro Race)</label>
     <description>.</description>
     <graphicData>
-      <texPath>Things/Pawn/Kiiro/Apparel/MeatLanternSuit/Icon</texPath>
+      <texPath>Anomaly/MeatLantern/Kiiro/Apparel/Icon</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Pawn/Kiiro/Apparel/MeatLanternSuit/MeatLanternSuit</wornGraphicPath>
+      <wornGraphicPath>Anomaly/MeatLantern/Kiiro/Apparel/MeatLanternSuit</wornGraphicPath>
     </apparel>
     <statBases>
 			<WorkToMake>50</WorkToMake>
     </statBases>
-    <costList Inherit="False">
+    <costList>
       <Apparel_MeatLanternSuit>1</Apparel_MeatLanternSuit>
     </costList>
     <recipeMaker>
-	    <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-      <displayPriority>702</displayPriority>
-	     <recipeUsers Inherit="False">
-        <li>TableManufacturing_EGO</li>
-        <li>TableMachining</li>
+	    <unfinishedThingDef>LC_UnfinishedApparelEGO</unfinishedThingDef>
+	     <recipeUsers>
+        <li>LC_EGOConvertBench</li>
        </recipeUsers>
     </recipeMaker>
   </ThingDef>
