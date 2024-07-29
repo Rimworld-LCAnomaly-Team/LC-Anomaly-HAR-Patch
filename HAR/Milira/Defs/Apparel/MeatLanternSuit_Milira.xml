@@ -9,7 +9,7 @@
       <texPath>Anomaly/MeatLantern/Milira/Apparel/Icon</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Pawn/Milira/Apparel/MeatLanternSuit</wornGraphicPath>
+      <wornGraphicPath>Anomaly/MeatLantern/Milira/Apparel/MeatLanternSuit</wornGraphicPath>
     </apparel>
     <statBases>
 			<WorkToMake>50</WorkToMake>
