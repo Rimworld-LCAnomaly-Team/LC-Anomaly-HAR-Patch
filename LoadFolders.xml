@@ -5,6 +5,5 @@
 		<li IfModActive="Ancot.KiiroRace">HAR/Kiiro</li>
 		<li IfModActive="ancot.milirarace">HAR/Milira</li>
 		<li IfModActive="miho.fortifiedoutremer">HAR/Miho</li>
-		<li IfModActive="fxz.myafufu">Fufu</li>
     </v1.5>
 </loadFolders>
