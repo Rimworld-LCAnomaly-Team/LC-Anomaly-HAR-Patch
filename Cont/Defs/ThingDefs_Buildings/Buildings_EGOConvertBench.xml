@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="BenchBase">
     <defName>LC_EGOConvertBench</defName>
-    <label>LC EGO Convert Bench</label>
+    <label>EGO Convert Bench</label>
     <description>.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
