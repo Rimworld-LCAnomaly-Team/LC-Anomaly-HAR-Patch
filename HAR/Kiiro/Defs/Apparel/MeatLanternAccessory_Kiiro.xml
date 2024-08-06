@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="Accessory_MeatLantern">
     <defName>Accessory_MeatLantern_Kiiro</defName>
-    <label>Accessory_MeatLantern (Kiiro)</label>
+    <label>MeatLantern Accessory (Kiiro Race)</label>
     <description>.</description>
     <graphicData>
       <texPath>Anomaly/MeatLantern/Kiiro/Accessory/Icon</texPath>
